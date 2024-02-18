@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button {
+    background-color: white;
+}
+
+.tableStats {
+    padding: 5px 10px;
+    width: max-content;
+}
+
+.tableHead {
+    color: yellow;
+    font-size: 15px;
+}
+
+.tableBody {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#cosmonaut,
+#ships,
+#planets {
+    width: 270px;
+}
+
+#cosmonaut {
+    margin-right: 110px;
+}
+
+#ships {
+    margin-right: 110px;
+}
+
+#logoImg {
+    width: 550px;
+    margin-top: 30px;
+}
+
+#cosmonautTableContainer,
+#shipsTableContainer,
+#planetsTableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nextAndPrevious {
+    background-color: orange;
+    color: black;
+}
+
+.nextButton {
+    display: block;
+    margin-left: 950px;
+    width: 2%;
+    background-color: #FFA836;
+}
+
+.previousButton {
+    display: block;
+    margin-left: 550px;
+    width: 2%;
+    background-color: #FFA836;
+}
+
+#loading {
+    display: block;
+    margin-left: 650px;
+    width: 70%;
+}

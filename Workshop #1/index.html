@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="logoImg" src="./img/logo.png" class="center">
+    <br>
+    <div id="imageContainer">
+    <img id="cosmonaut" src="./img/cosmonaut.svg">
+    <img id="ships" src="./img/rocket.svg"> 
+    <img id="planets" src="./img/planet.png">
+    </div>
+    <div id="cosmonautTableContainer">
+    <table id="cosmonautStats" class="tableStats">
+        <thead id="cosmonautHead" class="tableHead">
+            <tr>
+                <th>Name</th>
+                <th>Height</th>
+                <th>Mass</th>
+                <th>Gender</th>
+                <th>Birth Year</th>
+                <th>Appearances</th>
+            </tr>
+        </thead>
+        <tbody id="cosmonautBody" class="tableBody"></tbody>
+    </table>
+    </div>
+    <div id="shipsTableContainer">
+    <table id="shipsStats" class="tableStats">
+        <thead id="shipsHead" class="tableHead">
+            <tr>
+                <th>Name</th>
+                <th>Model</th>
+                <th>Manufacturer</th>
+                <th>Cost</th>
+                <th>People Capacity</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody id="shipsBody" class="tableBody"></tbody>
+    </table>
+    </div>
+    <div id="planetsTableContainer">
+        <table id="planetsStats" class="tableStats">
+            <thead id="planetsHead" class="tableHead">
+                <tr>
+                    <th>Name</th>
+                    <th>Diameter</th>
+                    <th>Climate</th>
+                    <th>Terrain</th>
+                    <th>Population</th>
+                </tr>
+            </thead>
+            <tbody id="planetsBody" class="tableBody"></tbody>
+        </table>
+    </div>
+    <br>
+    <div id="newButtons"></div> 
+    <div id="loading" style="display: none;">
+    <img src="./img/loader.gif"></div>  
+
+    <script src="script.js"></script>
+</body>
+</html>
